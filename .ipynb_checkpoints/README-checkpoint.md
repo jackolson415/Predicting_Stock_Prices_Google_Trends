@@ -4,6 +4,22 @@ Author: Jack Olson
 
 ---
 
+## Repository Structure 
+
+**1_Data_Collection_And_EDA**
+
+In this workbook I wrote create_ticker_df, which uses PyTrends and Alpha Vantage to collect my data. This workbook also contains the EDA to validate that the APIs are collecting correct data.
+
+**2_Example_Model_and_Creating_Capstone_Utils**
+
+In this workbook I used create_ticker_df to collect data for PTON and create my first models. The code I wrote for PTON was generalized into the functions saved in **capstone_utils.py**
+
+**3_Collect_Data_and_Model_ticker**
+
+This workbook is the culmination of all of the code in the repo. It contains the model_ticker function which collects a tickers data and models with it all at once.
+
+---
+
 ## Problem Statment
 
 Could using Google Trends improve the prediction of stock price changes?
@@ -19,7 +35,7 @@ Could using Google Trends improve the prediction of stock price changes?
 3. History of Google Trends as a Stock Trading Tool
 4. Conclusions
 
----
+--- 
 
 ## Introduction
 
@@ -43,7 +59,8 @@ ARIMA uses historical prices to predict future prices. The only input to the mod
 
 ARIMA worked well on some of the tickers in my dataset but badly on others. This is because ARIMA tended to predict the same shape for any ticker. It would predict a flat trend at first and after a few weeks predict exponential gains or losses. If a ticker happened to follow this shape in the testing period then ARIMA would look very good. See the images below.
 
-![ARIMA Results](./Pictures/ARIMA_Results.png)
+<img src="./Pictures/ARIMA_Results.png" alt="ARIMA Results"/>
+
 
 ### **ARIMA with an Exogeneous Variable (ARIMAX)**
 
