@@ -96,9 +96,9 @@ The only ticker where I could reject the null in both cases is GME. That means I
 
 The results of VAR were great for GME. But for the first two tickers I found that also passed Granger's Causality Test VAR did not perform well at all. See below. I did not score VAR compared to my other two models because VAR predicts multiple time series so the AIC numbers aren't comparable.
 
-![GME VAR](./Pictures/GME_VAR.png)
+![GME VAR](https://github.com/jackolson415/Stock_Trends_Capstone/blob/main/Pictures/GME_VAR.PNG)
 
-![Other Tickers VAR](./Pictures/other_VAR.png)
+![Other Tickers VAR](https://github.com/jackolson415/Stock_Trends_Capstone/blob/main/Pictures/other_VAR.PNG)
 
 ## History of Google Trends as a Stock Trading Tool
 
