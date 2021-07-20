@@ -59,7 +59,7 @@ ARIMA uses historical prices to predict future prices. The only input to the mod
 
 ARIMA worked well on some of the tickers in my dataset but badly on others. This is because ARIMA tended to predict the same shape for any ticker. It would predict a flat trend at first and after a few weeks predict exponential gains or losses. If a ticker happened to follow this shape in the testing period then ARIMA would look very good. See the images below.
 
-<img src="./Pictures/ARIMA_Results.png" alt="ARIMA Results"/>
+<img src="https://github.com/jackolson415/Stock_Trends_Capstone/blob/main/Pictures/ARIMA_Results.PNG" alt="ARIMA Results"/>
 
 
 ### **ARIMA with an Exogeneous Variable (ARIMAX)**
